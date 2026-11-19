@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ckdtools"
+version = "1.0.0"
+description = "Race-free CKD-EPI eGFR, KDIGO staging and Kidney Failure Risk Equation, tested and dependency-free"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Alireza Javan" }]
+requires-python = ">=3.9"
+keywords = ["nephrology", "eGFR", "CKD-EPI", "KDIGO", "KFRE", "chronic kidney disease", "clinical calculator"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Healthcare Industry",
+    "Topic :: Scientific/Engineering :: Medical Science Apps.",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7", "matplotlib>=3.7", "numpy>=1.24"]
+
+[project.scripts]
+ckdtools = "ckdtools.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/alirezajavan-sys/ckd-toolkit"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+addopts = "--doctest-modules"
+testpaths = ["tests", "src/ckdtools"]
