@@ -1,6 +1,6 @@
 # ckdtools: Kidney Function Calculators for Clinical Research
 
-![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)
 ![Tests](https://github.com/alirezajavan-sys/ckd-toolkit/actions/workflows/tests.yml/badge.svg)
 ![Dependencies](https://img.shields.io/badge/dependencies-none-brightgreen)
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)

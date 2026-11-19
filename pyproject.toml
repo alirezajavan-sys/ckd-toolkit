@@ -9,7 +9,7 @@ description = "Race-free CKD-EPI eGFR, KDIGO staging and Kidney Failure Risk Equ
 readme = "README.md"
 license = { text = "MIT" }
 authors = [{ name = "Alireza Javan" }]
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 keywords = ["nephrology", "eGFR", "CKD-EPI", "KDIGO", "KFRE", "chronic kidney disease", "clinical calculator"]
 classifiers = [
     "Programming Language :: Python :: 3",
