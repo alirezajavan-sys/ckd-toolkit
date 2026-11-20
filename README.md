@@ -5,6 +5,9 @@
 ![Dependencies](https://img.shields.io/badge/dependencies-none-brightgreen)
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 
+> **Try it in the browser:** [kidney-risk-calculator](https://alirezajavan-sys.github.io/kidney-risk-calculator/)
+> is a web version of this package, verified against it on 600 reference cases.
+
 A small, **dependency-free and fully unit-tested** Python package for the kidney calculations used every day in
 internal medicine and nephrology research:
 
